@@ -18,5 +18,7 @@ int main() {
     int e= producto(a,b);
     cout<<e<<endl;
     cout << "el producto de " << a << " y " << b << " es " << e << endl;
+    int f= cociente(a,b);
+    cout<<" el cociente es "<<f;
     return 0;
 } 
