@@ -1,0 +1,8 @@
+# Archivos ocultos temporales de Mac
+._*
+.DS_Store
+
+# Archivos de texto generados o ejecutables
+contacto_ordenado.txt
+sistema
+*.o
