@@ -52,7 +52,7 @@ void mergsort(T array[], int inicio, int final){
 }
 
 
-void agregarContacto(string nombreArchivo){
+void agregarContacto(TS1 nombreArchivo){
 
 	ofstream f(nombreArchivo,ios::app);
 	if(!f){
@@ -77,7 +77,7 @@ void agregarContacto(string nombreArchivo){
 	cout<<"\n contacto guardado "<<endl;
 }
 
-void eliminarContacto(string nombreArchivo){
+void eliminarContacto(TS1 nombreArchivo){
 	ifstream fOrig(nombreArchivo);
 	ofstream fTemp("temporal.txt");
 

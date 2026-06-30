@@ -58,8 +58,8 @@ class persona{
 	}
 };
 
-void agregarContacto(string nombreArchivo);
+void agregarContacto(TS1 nombreArchivo);
 
-void eliminarContacto(string nombreArchivo);
+void eliminarContacto(TS1 nombreArchivo);
 
 int programa();
